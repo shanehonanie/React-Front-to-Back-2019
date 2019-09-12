@@ -24,7 +24,7 @@ yarn-error.log*
 
 # db
 config/default.json
-config/production.json
+#config/production.json
 
 # client
 /client/node_modules
@@ -33,3 +33,6 @@ config/production.json
 /client/.env.development.local
 /client/.env.test.local
 /client/.env.production.local
+
+# build script
+heroku_build_script.txt
